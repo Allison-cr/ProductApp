@@ -25,6 +25,7 @@
 		FE7940A62B6B152600BAA7F9 /* EnumSpecific.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumSpecific.swift; sourceTree = "<group>"; };
 		FE7940A82B6B21ED00BAA7F9 /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
 		FE7940AA2B6B222A00BAA7F9 /* EnumFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumFeedback.swift; sourceTree = "<group>"; };
+		FE7940AC2B6C3A9A00BAA7F9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FEF72EB22B6AE37C004EC4D0 /* ProductApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF72EB52B6AE37C004EC4D0 /* ProductAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAppApp.swift; sourceTree = "<group>"; };
 		FEF72EB72B6AE37C004EC4D0 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		FEF72EA92B6AE37C004EC4D0 = {
 			isa = PBXGroup;
 			children = (
+				FE7940AC2B6C3A9A00BAA7F9 /* README.md */,
 				FEF72EB42B6AE37C004EC4D0 /* ProductApp */,
 				FEF72EB32B6AE37C004EC4D0 /* Products */,
 			);
