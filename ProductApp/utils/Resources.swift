@@ -5,6 +5,8 @@ struct Resources {
    
     enum colors {
         static let main = Color("green")
+        static let gray = Color("gray")
+
     }
     
     enum strings {
@@ -31,7 +33,10 @@ struct Resources {
         static let carbohydratesValue = "3,3 г"
         
         static let allSpecifications = "Все характеристики"
+        static let feedback = "Отзывы"
+        static let feedbackValue = "Все 152"
 
+        static let button = "Оставить отзыв"
         
         
 

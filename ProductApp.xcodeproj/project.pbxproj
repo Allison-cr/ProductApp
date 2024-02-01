@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		FE7940A52B6B114D00BAA7F9 /* Specifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7940A42B6B114D00BAA7F9 /* Specifications.swift */; };
 		FE7940A72B6B152600BAA7F9 /* EnumSpecific.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7940A62B6B152600BAA7F9 /* EnumSpecific.swift */; };
+		FE7940A92B6B21ED00BAA7F9 /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7940A82B6B21ED00BAA7F9 /* FeedbackView.swift */; };
+		FE7940AB2B6B222A00BAA7F9 /* EnumFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7940AA2B6B222A00BAA7F9 /* EnumFeedback.swift */; };
 		FEF72EB62B6AE37C004EC4D0 /* ProductAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF72EB52B6AE37C004EC4D0 /* ProductAppApp.swift */; };
 		FEF72EB82B6AE37C004EC4D0 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF72EB72B6AE37C004EC4D0 /* RootView.swift */; };
 		FEF72EBA2B6AE380004EC4D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF72EB92B6AE380004EC4D0 /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 /* Begin PBXFileReference section */
 		FE7940A42B6B114D00BAA7F9 /* Specifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specifications.swift; sourceTree = "<group>"; };
 		FE7940A62B6B152600BAA7F9 /* EnumSpecific.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumSpecific.swift; sourceTree = "<group>"; };
+		FE7940A82B6B21ED00BAA7F9 /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		FE7940AA2B6B222A00BAA7F9 /* EnumFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumFeedback.swift; sourceTree = "<group>"; };
 		FEF72EB22B6AE37C004EC4D0 /* ProductApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF72EB52B6AE37C004EC4D0 /* ProductAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAppApp.swift; sourceTree = "<group>"; };
 		FEF72EB72B6AE37C004EC4D0 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
@@ -65,6 +69,7 @@
 				FEF72EB52B6AE37C004EC4D0 /* ProductAppApp.swift */,
 				FEF72EB72B6AE37C004EC4D0 /* RootView.swift */,
 				FEF72EC52B6AF512004EC4D0 /* MainView.swift */,
+				FE7940A82B6B21ED00BAA7F9 /* FeedbackView.swift */,
 				FEF72EB92B6AE380004EC4D0 /* Assets.xcassets */,
 				FEF72EBB2B6AE380004EC4D0 /* Preview Content */,
 			);
@@ -83,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				FE7940A62B6B152600BAA7F9 /* EnumSpecific.swift */,
+				FE7940AA2B6B222A00BAA7F9 /* EnumFeedback.swift */,
 				FEF72EC32B6AEBBA004EC4D0 /* Resources.swift */,
 				FE7940A42B6B114D00BAA7F9 /* Specifications.swift */,
 				FEF72EC72B6B0AD0004EC4D0 /* DashedDivider.swift */,
@@ -161,10 +167,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEF72EB82B6AE37C004EC4D0 /* RootView.swift in Sources */,
+				FE7940AB2B6B222A00BAA7F9 /* EnumFeedback.swift in Sources */,
 				FE7940A72B6B152600BAA7F9 /* EnumSpecific.swift in Sources */,
 				FEF72EC62B6AF512004EC4D0 /* MainView.swift in Sources */,
 				FE7940A52B6B114D00BAA7F9 /* Specifications.swift in Sources */,
 				FEF72EC42B6AEBBA004EC4D0 /* Resources.swift in Sources */,
+				FE7940A92B6B21ED00BAA7F9 /* FeedbackView.swift in Sources */,
 				FEF72EB62B6AE37C004EC4D0 /* ProductAppApp.swift in Sources */,
 				FEF72EC82B6B0AD0004EC4D0 /* DashedDivider.swift in Sources */,
 			);
