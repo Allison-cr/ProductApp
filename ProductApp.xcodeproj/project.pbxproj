@@ -7,22 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE7940A52B6B114D00BAA7F9 /* Specifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7940A42B6B114D00BAA7F9 /* Specifications.swift */; };
+		FE7940A72B6B152600BAA7F9 /* EnumSpecific.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7940A62B6B152600BAA7F9 /* EnumSpecific.swift */; };
 		FEF72EB62B6AE37C004EC4D0 /* ProductAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF72EB52B6AE37C004EC4D0 /* ProductAppApp.swift */; };
 		FEF72EB82B6AE37C004EC4D0 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF72EB72B6AE37C004EC4D0 /* RootView.swift */; };
 		FEF72EBA2B6AE380004EC4D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF72EB92B6AE380004EC4D0 /* Assets.xcassets */; };
 		FEF72EBD2B6AE380004EC4D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF72EBC2B6AE380004EC4D0 /* Preview Assets.xcassets */; };
-		FEF72EC42B6AEBBA004EC4D0 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF72EC32B6AEBBA004EC4D0 /* Colors.swift */; };
+		FEF72EC42B6AEBBA004EC4D0 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF72EC32B6AEBBA004EC4D0 /* Resources.swift */; };
 		FEF72EC62B6AF512004EC4D0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF72EC52B6AF512004EC4D0 /* MainView.swift */; };
 		FEF72EC82B6B0AD0004EC4D0 /* DashedDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF72EC72B6B0AD0004EC4D0 /* DashedDivider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE7940A42B6B114D00BAA7F9 /* Specifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specifications.swift; sourceTree = "<group>"; };
+		FE7940A62B6B152600BAA7F9 /* EnumSpecific.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumSpecific.swift; sourceTree = "<group>"; };
 		FEF72EB22B6AE37C004EC4D0 /* ProductApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF72EB52B6AE37C004EC4D0 /* ProductAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAppApp.swift; sourceTree = "<group>"; };
 		FEF72EB72B6AE37C004EC4D0 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		FEF72EB92B6AE380004EC4D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEF72EBC2B6AE380004EC4D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FEF72EC32B6AEBBA004EC4D0 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		FEF72EC32B6AEBBA004EC4D0 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		FEF72EC52B6AF512004EC4D0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		FEF72EC72B6B0AD0004EC4D0 /* DashedDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashedDivider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,7 +82,9 @@
 		FEF72EC92B6B0AF9004EC4D0 /* utils */ = {
 			isa = PBXGroup;
 			children = (
-				FEF72EC32B6AEBBA004EC4D0 /* Colors.swift */,
+				FE7940A62B6B152600BAA7F9 /* EnumSpecific.swift */,
+				FEF72EC32B6AEBBA004EC4D0 /* Resources.swift */,
+				FE7940A42B6B114D00BAA7F9 /* Specifications.swift */,
 				FEF72EC72B6B0AD0004EC4D0 /* DashedDivider.swift */,
 			);
 			path = utils;
@@ -155,8 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEF72EB82B6AE37C004EC4D0 /* RootView.swift in Sources */,
+				FE7940A72B6B152600BAA7F9 /* EnumSpecific.swift in Sources */,
 				FEF72EC62B6AF512004EC4D0 /* MainView.swift in Sources */,
-				FEF72EC42B6AEBBA004EC4D0 /* Colors.swift in Sources */,
+				FE7940A52B6B114D00BAA7F9 /* Specifications.swift in Sources */,
+				FEF72EC42B6AEBBA004EC4D0 /* Resources.swift in Sources */,
 				FEF72EB62B6AE37C004EC4D0 /* ProductAppApp.swift in Sources */,
 				FEF72EC82B6B0AD0004EC4D0 /* DashedDivider.swift in Sources */,
 			);

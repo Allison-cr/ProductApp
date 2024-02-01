@@ -32,7 +32,7 @@ struct RootView: View {
                         Text("Профиль")
                     }
             }
-            .accentColor(Colors.main)
+            .accentColor(Resources.colors.main)
         }
     }
 }

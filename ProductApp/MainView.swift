@@ -13,17 +13,17 @@ struct MainView: View {
                 }
                 .padding(.horizontal, 16)
                 .font(.system(size: 20, weight: .bold))
-                .foregroundColor(Colors.main)
+                .foregroundColor(Resources.colors.main)
                 Divider()
                     .background(Color.gray)
                     .padding(.top, 10)
                 VStack(alignment: .leading) {
                     HStack {
-                        Text("Цена по карте")
+                        Text(Resources.strings.cell)
                             .font(.system(size: 12))
                             .foregroundColor(.white)
                             .padding(5)
-                            .background(Colors.main)
+                            .background(Resources.colors.main)
                             .cornerRadius(4)
 
                         
@@ -40,13 +40,13 @@ struct MainView: View {
                             .font(.system(size: 24, weight: .bold))
                         Text("4.1")
                         +
-                        Text(" | 19 отзывов")
+                        Text(Resources.strings.review)
                             .foregroundColor(.gray)
                         Spacer()
                     }
                     .padding(.leading)
                     HStack {
-                        Text("Добавка ''Липа''\n к чаю 200 г")
+                        Text(Resources.strings.product)
                             .font(.system(size: 36,weight: .bold))
                             .padding(.top, 8)
                         Spacer()
@@ -54,28 +54,26 @@ struct MainView: View {
                     HStack {
                         Image("flag")
                             .resizable()
-                            .frame(width: 40, height: 40)
-                        Text("Испания, Риоха")
+                            .frame(width: 30, height: 30)
+                        Text(Resources.strings.reg)
                             .font(.system(size: 20))
                         Spacer()
                     }
-                    .padding()
+                    .padding(3)
                     VStack(alignment: .leading, spacing: 8) {
-                        Text("Описание")
-                            .font(.system(size: 18, weight: .bold))
+                        Text(Resources.strings.titleDescription)
+                            .font(.system(size: 18, weight: .semibold))
                             
-                        Text("Флавоноиды липового цвета обладают противовоспалительным действием, способствуют укреплению стенки сосудов.")
+                        Text(Resources.strings.description)
+                            .fixedSize(horizontal: false, vertical: true)
+
                     
-                        Text("Основные характеристики")
-                            .font(.system(size: 18, weight: .bold))
+                        Text(Resources.strings.specifications)
+                            .font(.system(size: 18, weight: .semibold))
                         
-                        HStack {
-                            Text("Производство")
-                            DashedDivider()
-                                Text("Россия, Краснодарский  край")
-                                    .multilineTextAlignment(.trailing)
-                            }
-                        
+                        ForEach(Specific.allCases, id: \.self) { item in
+                            Specifications(item: item)
+                        }
                      
                     }
                     Spacer()
